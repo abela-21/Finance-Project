@@ -5,15 +5,16 @@ import plotly.graph_objects as go
 from datetime import datetime
 from pathlib import Path
 import logging
-from config import PortfolioConfig
-from portfolio_tracker import (
+from .config import PortfolioConfig
+from .portfolio_tracker import (
     load_portfolio,
     calculate_portfolio_value,
     calculate_dividend_income,
     calculate_risk_metrics,
     plot_portfolio_allocation,
     plot_historical_performance,
-    portfolio_volatility_plot
+    portfolio_volatility_plot,
+    calculate_transaction_costs
 )
 
 # Configure logging

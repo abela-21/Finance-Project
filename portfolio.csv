@@ -1,0 +1,6 @@
+Ticker,Quantity,Dividends,TransactionCost,TargetAllocation,CashBalance
+AAPL,12,1.01,5.0,0.22,100.0
+AMZN,13,0.0,5.0,0.01,100.0
+TSLA,14,0.0,4.0,0.28,100.0
+KO,24,1.965,4.0,0.17,100.0
+MSFT,18,2.41,5.0,0.32,100.0
